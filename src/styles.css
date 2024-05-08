@@ -1,0 +1,85 @@
+body {
+  background-color: #f4f4f4;
+  color: #333;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+h1 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  box-shadow: 0 0 20px #00000026;
+  font-size: 0.9em;
+  margin: 25px 0;
+  min-width: 400px;
+  width: 100%;
+}
+
+table thead tr {
+  background-color: #009879;
+  color: #fff;
+  text-align: left;
+}
+
+table td,
+table th {
+  padding: 12px 15px;
+}
+
+table tbody tr {
+  border-bottom: 1px solid #ddd;
+}
+
+table tbody tr:nth-of-type(2n) {
+  background-color: #f3f3f3;
+}
+
+table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.pagination {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.page-item {
+  margin: 0 10px;
+}
+
+.page-link {
+  background-color: #009879;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.page-link:hover {
+  background-color: #007f66;
+}
+
+.page-link[disabled] {
+  background-color: #ccc;
+  cursor: default;
+}
+
+.page-link.current-page {
+  background-color: #007f66;
+  font-weight: 700;
+}
+
+/*# sourceMappingURL=main.547338b9.css.map*/
